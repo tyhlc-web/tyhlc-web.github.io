@@ -97,10 +97,10 @@ function renderKatalog(items) {
                 <div class="card-content">
 
                     <div class="card-title">
-                        ${item.Filename}
+                        ${item.filename}
                     </div>
 
-                    <div class="room ${authorClass}">
+                    <div class="card-room ${authorClass}">
                         ${item.Rooms}
                     </div>
 

@@ -6,8 +6,7 @@
 body {
   font-family: Verdana;
   padding: 2px;
-  font-size: 16px;
-}
+  font-size: 12px;
 
 h1{
   font-size: 1rem;
@@ -19,6 +18,12 @@ img{
 
 .katalog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+
+.card-room{
+  background:lightgray;
+  color:darkgrey;
 }
 

@@ -91,7 +91,7 @@ function renderKatalog(items) {
             <div class="card">
 
                 <div class="card-image">
-                    <img src="${item['@image']}" alt="${item.spoons}">
+                    <img src="${item['@image']}" alt="${item.filename}">
                 </div>
 
                 <div class="card-content">

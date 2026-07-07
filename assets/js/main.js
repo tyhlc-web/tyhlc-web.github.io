@@ -2,7 +2,7 @@
 let allData = [];
 
 // Load the JSON file from the assets/data folder
-fetch('assets/data/katalog.json')
+fetch('assets/data/260707_inab_table.json')
     .then(response => {
 
         // Log the HTTP response so we can check if the file was found
@@ -97,11 +97,11 @@ function renderKatalog(items) {
                 <div class="card-content">
 
                     <div class="card-title">
-                        ${item.filename}
+                        ${item.object}
                     </div>
 
                     <div class="card-room ${authorClass}">
-                        ${item.Rooms}
+                        ${item.rooms}
                     </div>
 
                 </div>

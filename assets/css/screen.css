@@ -22,8 +22,12 @@ img{
 }
 
 
-.card-room{
-  background:lightgray;
-  color:darkgrey;
-}
+.background:
+  background {lightgray} 
 
+
+.card-room{
+  background:darkgray;
+  color:lightgrey;
+}
+ 

@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: Verdana;
+  font-family: veranda;
   padding: 2px;
   font-size: 15px;
 
@@ -18,7 +18,7 @@ img{
 
 .katalog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
 }
 
   
